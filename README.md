@@ -30,5 +30,49 @@ This framework helps universities, smart cities, and organizations **automate pa
 
 ---
 
-## 📂 Project Structure  
+---
 
+## 🚀 Getting Started  
+
+### 1️⃣ Clone Repository  
+```bash
+git clone https://github.com/your-username/DroneParkingGuard.git
+cd DroneParkingGuard
+```
+
+### 2️⃣ Install Dependencies
+```
+pip install -r requirements.txt
+pip install paddleocr
+pip install paddlepaddle
+```
+
+### 3️⃣ Run Detection
+```
+python final_false_parking_detection.py --video test.MP4
+```
+
+### 4️⃣ Run OCR
+```
+python ocr.py --image output_with_boxes.jpeg
+python paddle_ocr.py --image output_with_boxes.jpeg
+```
+
+## 🛠️ Tech Stack
+
+- Detection: YOLOv8 (Ultralytics), PyTorch
+- OCR: PaddleOCR, Tesseract
+- Drone Control: PlutoCam – Drona Aviation
+- Hardware: PlutoX Nano UAV
+- Annotation Tool: CVAT
+- Libraries: OpenCV, Pandas, Numpy
+
+## 🙌 Acknowledgements
+
+- DronaAviation for the PlutoCam drone camera streaming & control codebase, which served as the foundation for our UAV integration.
+- Ultralytics for YOLOv8.
+- PaddleOCR & Tesseract for license plate recognition.
+
+## 📬 Contact
+Jay Gor - jgor280505@gmail.com
+Karm Dave -  1404kd@gmail.com  
