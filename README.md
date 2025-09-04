@@ -29,12 +29,20 @@ This framework helps universities, smart cities, and organizations **automate pa
 -  Lightweight & scalable to smart city use cases  
 
 ---
-## Flowchart and Infographics
+## 📊 Flowchart and Infographics  
+
 <p align="center">
-  <img src="proposed model.png" width="800">
+  <img src="proposed model.png" width="800"><br>
+  <em>Figure 1: Federated Learning setup for UAV-based false parking detection.  
+  Each drone (client) trains a local model, sends encrypted weights to the server,  
+  and receives updated global weights after aggregation.</em>
 </p>
+
 <p align="center">
-  <img src="technical_flowchart.png" width="800">
+  <img src="technical_flowchart.png" width="800"><br>
+  <em>Figure 2: End-to-end system pipeline for false parking detection.  
+  UAVs collect parking data → YOLOv8 detects violations → OCR extracts license plates →  
+  Cloud system triggers fine calculation, reporting, and automated email notifications.</em>
 </p>
 
 ---
