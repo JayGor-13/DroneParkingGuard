@@ -29,6 +29,13 @@ This framework helps universities, smart cities, and organizations **automate pa
 -  Lightweight & scalable to smart city use cases  
 
 ---
+## Flowchart and Infographics
+<p align="center">
+  <img src="proposed model.png" width="800">
+</p>
+<p align="center">
+  <img src="technical_flowchart.png" width="800">
+</p>
 
 ---
 
