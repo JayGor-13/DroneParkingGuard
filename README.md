@@ -89,5 +89,5 @@ python paddle_ocr.py --image output_with_boxes.jpeg
 - PaddleOCR & Tesseract for license plate recognition.
 
 ## 📬 Contact
-Jay Gor - jgor280505@gmail.com
+Jay Gor - jaygor162@gmail.com
 Karm Dave -  1404kd@gmail.com  
